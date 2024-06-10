@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"example.com/max_go_course/address_book/address"
+	"github.com/Godfredasare/myGolangExample.git/address_book/address"
 )
 
 func main() {
