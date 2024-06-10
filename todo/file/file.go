@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"os"
 
-	"example.com/max_go_course/todo/todoList"
+	todolist "github.com/Godfredasare/myGolangExample.git/todo/todoList"
 )
 
 const path = "./todo/todo.json"

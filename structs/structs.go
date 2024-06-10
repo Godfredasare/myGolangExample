@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"example.com/max_go_course/structs/user"
+	"github.com/Godfredasare/myGolangExample.git/structs/user"
 )
 
 func main() {

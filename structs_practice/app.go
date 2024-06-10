@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"example.com/max_go_course/structs_practice/note"
-	"example.com/max_go_course/structs_practice/todo"
+	"github.com/Godfredasare/myGolangExample.git/structs_practice/note"
+	"github.com/Godfredasare/myGolangExample.git/structs_practice/todo"
 )
 
 type saver interface {

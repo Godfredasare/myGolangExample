@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"example.com/max_go_course/todo/file"
-	todolist "example.com/max_go_course/todo/todoList"
+	"github.com/Godfredasare/myGolangExample.git/todo/file"
+	todolist "github.com/Godfredasare/myGolangExample.git/todo/todoList"
 )
 
 func input(prompt string) string {
