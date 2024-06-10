@@ -7,6 +7,9 @@ import "fmt"
 func main() {
 	fact := factoria(5)
 	fmt.Println(fact)
+
+	result :=addMore(10, 89,1)
+	fmt.Print(result)
 }
 
 func factoria(number int) int {
@@ -21,4 +24,13 @@ func factoria(number int) int {
 	// 	result = result * i
 	// }
 	// return result
+}
+
+//accepting many values
+func addMore(values ...int) int{
+	total := 0
+	for _, v := range values{
+		total += v
+	}
+	return total
 }
